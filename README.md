@@ -67,28 +67,6 @@
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=aqmalio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aqmalio&layout=compact&theme=tokyonight&hide_border=true&hide=html&langs_count=8" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
-
-<!-- GitHub Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aqmalio&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
-
-</div>
-
----
-
 ## GitHub Activity Graph
 
 <div align="center">
