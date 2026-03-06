@@ -1,17 +1,13 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aqmal%20Io&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Open%20Source%20Enthusiast&descAlignY=55&descSize=18" width="100%" />
+# Aqmal Io
+### Web App Engineer
 
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6FFFE9&center=true&vCenter=true&random=false&width=500&lines=Full+Stack+Developer;Open+Source+Enthusiast;Passionate+Problem+Solver;Building+Things+That+Matter+%F0%9F%9A%80)](https://git.io/typing-svg)
-
-<!-- Profile Views Counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=aqmalio&label=Profile%20Views&color=0e75b6&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=aqmalio&label=Profile%20Views&color=0e75b6&style=flat-square)
 &nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/aqmalio?label=Followers&style=for-the-badge&color=0e75b6)](https://github.com/aqmalio?tab=followers)
+[![GitHub followers](https://img.shields.io/github/followers/aqmalio?label=Followers&style=flat-square&color=0e75b6)](https://github.com/aqmalio?tab=followers)
 &nbsp;
-[![GitHub Stars](https://img.shields.io/github/stars/aqmalio?label=Stars&style=for-the-badge&color=0e75b6)](https://github.com/aqmalio)
+[![GitHub Stars](https://img.shields.io/github/stars/aqmalio?label=Stars&style=flat-square&color=0e75b6)](https://github.com/aqmalio)
 
 </div>
 
@@ -19,11 +15,11 @@
 
 ## About Me
 
-- **Currently working on** — Scalable web applications and open-source projects
+- **Currently working on** — Scalable web applications and products
 - **Currently learning** — Cloud architecture, DevOps, and AI/ML integrations
 - **Location** — Indonesia
 - **Passion** — Passionate about building things that matter
-- **Open to** — Collaborations, freelance projects, and open-source contributions
+- **Open to** — Collaborations, freelance projects, and contributions
 - **Ask me about** — Full-stack development, REST APIs, and system design
 - **Reach me at** — Check my social links below
 - **Fun fact** — I write code and make coffee disappear at an alarming rate
@@ -35,9 +31,7 @@
 ### Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ### Frameworks & Libraries
@@ -123,7 +117,7 @@
 
 - **Working on** — Building a scalable microservices platform
 - **Learning** — Kubernetes, Terraform, and large language model APIs
-- **Goals 2025** — Contribute to 10+ open-source projects, launch a SaaS product
+- **Goals 2025** — Ship impactful web products and grow as an engineer
 - **Looking to collaborate on** — Innovative web apps and developer tools
 
 ---
@@ -142,44 +136,8 @@
 
 </div>
 
----
-
 <div align="center">
 
-<!-- Snake Animation -->
-<!-- 
-  Snake Animation Setup:
-  To enable the snake animation, create the following GitHub Actions workflow:
-  File: .github/workflows/snake.yml
-
-  name: Generate Snake Animation
-  on:
-    schedule:
-      - cron: "0 */12 * * *"
-    workflow_dispatch:
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk/svg-only@v3
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v3
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
--->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aqmalio/aqmalio/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aqmalio/aqmalio/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/aqmalio/aqmalio/output/github-contribution-grid-snake.svg" />
-</picture>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+*Web App Engineer · Indonesia 🇮🇩 · Passionate about building things that matter*
 
 </div>
