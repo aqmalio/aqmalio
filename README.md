@@ -1,13 +1,18 @@
 <div align="center">
 
-# Aqmal Io
-### Web App Engineer
+<!-- Capsule-render waving header: color=Laravel red, text=name, desc=role tagline, animation=fadeIn -->
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=220&section=header&text=Aqmal%20Io&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=Laravel%20Expert%20%7C%20Web%20App%20Engineer&descSize=20&descAlignY=58&descColor=FFCDD2&animation=fadeIn)](https://github.com/aqmalio)
 
-![Profile Views](https://komarev.com/ghpvc/?username=aqmalio&label=Profile%20Views&color=0e75b6&style=flat-square)
+<!-- Typing SVG: cycles through role titles to highlight Laravel expertise; font=Fira Code, color=Laravel red -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF2D20&center=true&vCenter=true&width=600&lines=Laravel+Expert+%F0%9F%94%A5;Full-Stack+Web+Engineer+%F0%9F%9A%80;REST+API+%26+System+Design+Specialist+%E2%9A%99%EF%B8%8F;Building+Scalable+Web+Applications+%F0%9F%8C%90)](https://git.io/typing-svg)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=aqmalio&label=Profile%20Views&color=FF2D20&style=flat-square)
 &nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/aqmalio?label=Followers&style=flat-square&color=0e75b6)](https://github.com/aqmalio?tab=followers)
+[![GitHub followers](https://img.shields.io/github/followers/aqmalio?label=Followers&style=flat-square&color=FF2D20)](https://github.com/aqmalio?tab=followers)
 &nbsp;
-[![GitHub Stars](https://img.shields.io/github/stars/aqmalio?label=Stars&style=flat-square&color=0e75b6)](https://github.com/aqmalio)
+[![GitHub Stars](https://img.shields.io/github/stars/aqmalio?label=Stars&style=flat-square&color=FF2D20)](https://github.com/aqmalio)
 
 </div>
 
@@ -15,14 +20,15 @@
 
 ## About Me
 
-- **Currently working on** — Scalable web applications and products
-- **Currently learning** — Cloud architecture, DevOps, and AI/ML integrations
-- **Location** — Indonesia
-- **Passion** — Passionate about building things that matter
-- **Open to** — Collaborations, freelance projects, and contributions
-- **Ask me about** — Full-stack development, REST APIs, and system design
-- **Reach me at** — Check my social links below
-- **Fun fact** — I write code and make coffee disappear at an alarming rate
+- 🔴 **Laravel Expert** — Deep expertise in Laravel (Eloquent, Queues, Events, Artisan, Packages)
+- 💼 **Currently working on** — Scalable web applications and products
+- 📚 **Currently learning** — Cloud architecture, DevOps, and AI/ML integrations
+- 🌏 **Location** — Indonesia
+- ❤️ **Passion** — Passionate about building things that matter
+- 🤝 **Open to** — Collaborations, freelance projects, and contributions
+- 💬 **Ask me about** — Laravel, full-stack development, REST APIs, and system design
+- 📬 **Reach me at** — Check my social links below
+- ☕ **Fun fact** — I write code and make coffee disappear at an alarming rate
 
 ---
 
@@ -138,6 +144,8 @@
 
 <div align="center">
 
-*Web App Engineer · Indonesia 🇮🇩 · Passionate about building things that matter*
+*Laravel Expert · Web App Engineer · Indonesia 🇮🇩 · Passionate about building things that matter*
 
 </div>
+
+[![Footer](https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=120&section=footer)](https://github.com/aqmalio)
