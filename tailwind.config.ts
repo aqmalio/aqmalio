@@ -9,16 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        display: ["var(--font-fraunces)", "Georgia", "serif"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       colors: {
-        background: "#050505",
-        "card-bg": "rgba(255,255,255,0.03)",
-        border: "rgba(255,255,255,0.08)",
-        "primary-accent": "#6366f1",
-        "secondary-accent": "#7c3aed",
-        "text-primary": "#f8fafc",
-        "text-muted": "#94a3b8",
+        background: "#0D0C0A",
+        surface: "#161412",
+        accent: {
+          DEFAULT: "#E8652A",
+          hover: "#D4541A",
+        },
+        fg: {
+          DEFAULT: "#EDE7DC",
+          2: "#8C8278",
+          3: "#5A5450",
+        },
       },
     },
   },

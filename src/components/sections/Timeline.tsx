@@ -39,26 +39,34 @@ function TimelineEntry({
 }) {
   return (
     <ScrollReveal delay={index * 0.15}>
-      <div className="relative pl-8 pb-12 last:pb-0">
-        {/* Dot */}
-        <div className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-indigo-500 border-2 border-indigo-500/50 shadow-lg shadow-indigo-500/50" />
+      <div className="relative pl-10 pb-10 last:pb-0">
+        {/* Index number as marker */}
+        <div className="absolute left-0 top-0.5 font-mono text-[11px] text-accent leading-none tracking-wider">
+          {String(index + 1).padStart(2, "0")}
+        </div>
 
-        <div className="glass rounded-2xl p-6 hover:border-indigo-500/20 transition-all duration-300">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+        <div className="border border-[var(--border)] rounded-2xl p-6 hover:border-[var(--border-hover)] hover:bg-surface transition-all duration-400 group">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
             <div>
-              <h3 className="text-lg font-bold text-white">{exp.role}</h3>
-              <p className="text-indigo-400 text-sm font-medium">{exp.company}</p>
+              <h3 className="font-display text-xl font-black text-fg tracking-tight group-hover:text-fg transition-colors">
+                {exp.role}
+              </h3>
+              <p className="text-accent text-sm font-medium mt-0.5">
+                {exp.company}
+              </p>
             </div>
-            <span className="text-xs font-mono text-slate-500 bg-white/5 px-3 py-1 rounded-full border border-white/8 whitespace-nowrap">
+            <span className="font-mono text-[11px] text-fg-3 bg-surface px-3 py-1.5 rounded-full border border-[var(--border)] whitespace-nowrap self-start">
               {exp.period}
             </span>
           </div>
-          <p className="text-slate-400 text-sm leading-relaxed mb-4">{exp.description}</p>
-          <div className="flex flex-wrap gap-2">
+          <p className="text-fg-2 text-sm leading-relaxed mb-5">
+            {exp.description}
+          </p>
+          <div className="flex flex-wrap gap-1.5">
             {exp.tech.map((t) => (
               <span
                 key={t}
-                className="px-2 py-1 rounded-md text-xs font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/20"
+                className="px-2.5 py-1 rounded-md font-mono text-[10px] bg-accent/8 text-accent border border-accent/20 tracking-wide"
               >
                 {t}
               </span>
@@ -79,31 +87,40 @@ export function Timeline() {
   const lineHeight = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
 
   return (
-    <section id="experience" className="py-24 px-6 bg-gradient-to-b from-transparent to-white/[0.02]">
+    <section id="experience" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
         <ScrollReveal>
-          <div className="mb-16">
-            <p className="text-xs font-semibold uppercase tracking-widest text-indigo-500 mb-3">
-              Career Path
-            </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-              Experience
-            </h2>
+          <div className="flex items-end justify-between mb-14 pb-6 border-b border-[var(--border)]">
+            <div>
+              <p className="font-mono text-[10px] text-accent uppercase tracking-[0.3em] mb-3">
+                Career Path
+              </p>
+              <h2 className="font-display text-4xl md:text-5xl font-black text-fg tracking-tight">
+                Experience
+              </h2>
+            </div>
+            <span className="font-mono text-xs text-fg-3 hidden md:block">
+              {experiences.length} roles
+            </span>
           </div>
         </ScrollReveal>
 
         <div ref={containerRef} className="relative">
           {/* Timeline line track */}
-          <div className="absolute left-[5px] top-0 bottom-0 w-px bg-white/5" />
+          <div className="absolute left-[3px] top-0 bottom-0 w-px bg-[var(--border)]" />
           {/* Animated fill */}
           <motion.div
-            className="absolute left-[5px] top-0 w-px bg-gradient-to-b from-indigo-500 to-violet-500 origin-top"
+            className="absolute left-[3px] top-0 w-px bg-gradient-to-b from-accent to-[#F5C842] origin-top"
             style={{ height: lineHeight }}
           />
 
           <div>
             {experiences.map((exp, index) => (
-              <TimelineEntry key={`${exp.period}-${exp.role}`} exp={exp} index={index} />
+              <TimelineEntry
+                key={`${exp.period}-${exp.role}`}
+                exp={exp}
+                index={index}
+              />
             ))}
           </div>
         </div>
