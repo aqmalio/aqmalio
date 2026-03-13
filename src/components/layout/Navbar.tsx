@@ -4,9 +4,10 @@ import { motion } from 'framer-motion';
 import { MagneticButton } from '@/components/ui/MagneticButton';
 
 const navLinks = [
-  { href: '#projects', label: 'Projects' },
-  { href: '#experience', label: 'Experience' },
-  { href: '#contact', label: 'Contact' },
+  { href: "#projects", label: "Projects" },
+  { href: "#experience", label: "Experience" },
+  { href: "#certifications", label: "Certs" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -24,9 +25,7 @@ export function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "border-b border-[var(--border)] bg-background/80 backdrop-blur-xl"
-          : "bg-transparent"
+        scrolled ? " bg-background/80 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">

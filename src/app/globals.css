@@ -19,6 +19,11 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background: var(--accent);
+  color: var(--fg);
+}
+
 body {
   background: var(--bg);
   color: var(--fg);

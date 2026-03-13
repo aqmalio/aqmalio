@@ -1,6 +1,12 @@
 'use client';
 import { motion } from 'framer-motion';
-import { ArrowDownRight, Github, Linkedin, Mail } from "lucide-react";
+import {
+  ArrowDownRight,
+  Github,
+  Linkedin,
+  Mail,
+  PhoneCall,
+} from "lucide-react";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 
 export function Hero() {
@@ -50,7 +56,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-mono text-[11px] text-accent uppercase tracking-[0.3em] mb-8"
           >
-            — Full-Stack Engineer
+            — Laravel Expert & Web App Engineer
           </motion.p>
 
           <div className="space-y-1">
@@ -85,10 +91,11 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-8 pt-8 border-t border-[var(--border)]"
         >
           <p className="text-fg-2 text-sm max-w-xs leading-relaxed">
-            5+ years specializing in{" "}
-            <span className="text-fg font-medium">Laravel</span> &{" "}
-            <span className="text-fg font-medium">modern JavaScript</span>.
-            Building products that scale.
+            Deep expertise in{" "}
+            <span className="text-fg font-medium">Laravel, JavaScript</span>,{" "}
+            <span className="text-fg font-medium">full-stack development</span>,
+            and payment gateway integrations. 5 years building things that
+            scale.
           </p>
 
           <div className="flex items-center gap-3">
@@ -118,6 +125,11 @@ export function Hero() {
                   icon: Mail,
                   href: "mailto:aqmal2399@gmail.com",
                   label: "Email",
+                },
+                {
+                  icon: PhoneCall,
+                  href: "http://wa.me/62895611580713",
+                  label: "Phone",
                 },
               ].map(({ icon: Icon, href, label }) => (
                 <MagneticButton key={label}>

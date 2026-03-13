@@ -24,9 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aqmalio — Laravel Expert & Web App Engineer",
+  title: "Aqmal — Laravel Expert & Web App Engineer",
   description:
-    "Premium portfolio of Aqmalio, a Laravel Expert & Web App Engineer from Indonesia specializing in scalable web applications.",
+    "Portfolio of Aqmal, a Laravel Expert & Web App Engineer from Banda Aceh, Indonesia. 5 years building scalable web applications, REST APIs, and payment gateway integrations.",
 };
 
 export default function RootLayout({

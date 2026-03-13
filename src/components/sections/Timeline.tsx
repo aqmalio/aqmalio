@@ -5,28 +5,52 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
 const experiences = [
   {
-    period: '2023 — Present',
-    role: 'Senior Full-Stack Engineer',
-    company: 'Self-Employed / Freelance',
+    period: "Oct 2025 — Mar 2026",
+    role: "Full Stack Developer",
+    company: "Astacode — Panenku App",
     description:
-      'Building scalable web platforms, PWA applications, and REST APIs for clients across Southeast Asia.',
-    tech: ['Laravel', 'Vue.js', 'React', 'Docker'],
+      "Built an end-to-end marketplace platform with Laravel backend and Vue.js PWA. Delivered scalable real-time inventory tracking and optimized frontend performance for diverse network conditions.",
+    tech: ["Laravel", "Vue.js", "PWA", "MySQL"],
   },
   {
-    period: '2021 — 2023',
-    role: 'Full-Stack Developer',
-    company: 'Tech Startup',
+    period: "Oct 2024 — Dec 2024",
+    role: "Full Stack Developer",
+    company: "GeekGarden",
     description:
-      'Led development of e-commerce and marketplace platforms, improving performance by 40%.',
-    tech: ['Laravel', 'MySQL', 'JavaScript', 'AWS'],
+      "Developed application functionality with secure and efficient payment gateway integrations. End-to-end feature development ensuring optimal user experience.",
+    tech: ["Laravel", "PHP", "PostgreSQL", "REST API"],
   },
   {
-    period: '2019 — 2021',
-    role: 'Backend Developer',
-    company: 'Web Agency',
+    period: "Mar 2023 — Aug 2023",
+    role: "Back End Developer",
+    company: "Arktivak",
     description:
-      'Developed REST APIs and backend systems for various client projects.',
-    tech: ['PHP', 'Laravel', 'MySQL', 'Redis'],
+      "Responsible for building web applications and API architectures. Integrated payment gateways and ensured secure data exchange within the system.",
+    tech: ["Laravel", "PHP", "MySQL", "Redis"],
+  },
+  {
+    period: "Sep 2021 — Feb 2022",
+    role: "Full Stack Developer",
+    company: "Wamplo Software",
+    description:
+      "Developed internal information systems and managed backend infrastructure. Built APIs and backend infrastructure used by mobile applications.",
+    tech: ["Laravel", "JavaScript", "MySQL", "REST API"],
+  },
+  {
+    period: "Jun 2020 — Jul 2021",
+    role: "Founder & Lead Engineer",
+    company: "Undang Pedia",
+    description:
+      "Led full technical development of the platform from initial stage through launch. Won 1st Place Islamic Application Contest — Universitas Syiah Kuala, 2019.",
+    tech: ["Laravel", "PHP", "JavaScript", "MySQL"],
+  },
+  {
+    period: "Feb 2017 — Jan 2020",
+    role: "Head of IT Operations",
+    company: "Aceh International School",
+    description:
+      "Managed IT infrastructure and overall school information system operations.",
+    tech: ["Linux", "Networking", "IT Systems"],
   },
 ];
 
@@ -39,9 +63,9 @@ function TimelineEntry({
 }) {
   return (
     <ScrollReveal delay={index * 0.15}>
-      <div className="relative pl-10 pb-10 last:pb-0">
+      <div className="relative pl-10 pb-10 last:pb-0 my-4">
         {/* Index number as marker */}
-        <div className="absolute left-0 top-0.5 font-mono text-[11px] text-accent leading-none tracking-wider">
+        <div className="absolute left-1.5 top-0.5 font-mono text-[11px] text-accent leading-none tracking-wider">
           {String(index + 1).padStart(2, "0")}
         </div>
 
