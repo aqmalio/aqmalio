@@ -18,8 +18,8 @@
 
 ---
 
-## About Me
-
+## About Me 
+[![Visit My Website](https://img.shields.io/badge/Visit%20Website-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aqmalio.vercel.app/)
 - 🔴 **Laravel Expert** — Deep expertise in Laravel (Eloquent, Queues, Events, Artisan, Packages)
 - 💼 **Currently working on** — Scalable web applications and products
 - 📚 **Currently learning** — Cloud architecture, DevOps, and AI/ML integrations
@@ -92,7 +92,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aqmalio)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aqmalio.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aqmalio.vercel.app/)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aqmal2399@gmail.com)
 
