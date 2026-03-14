@@ -4,6 +4,7 @@ import "./globals.css";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </SmoothScrollProvider>
+        <Analytics />
       </body>
     </html>
   );
